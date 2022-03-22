@@ -1,0 +1,138 @@
+.imgCss{
+    width:400px;
+    height:300px;
+    border-color:goldenrod;
+    border-width:5px;
+    border-style:ridge;
+    grid-area:2/2/3/3;
+    
+  }
+  .imgCssOver{
+    grid-area:1/2/2/4;
+    padding-left:200px;
+  }
+  .container{
+    display: grid;
+    grid-template-columns:repeat(4,320px);
+    
+    grid-template-rows:repeat(4,180px);
+    
+   
+  }
+  .header-css{
+  
+  
+  }
+  .subHeaderCss{
+  
+  text-align:center;
+  align-self:center;
+  justify-self:center;
+  
+  
+  }
+  .timelineCss{
+    
+  
+  }
+  .timelineGrid{
+    grid-area:2/2/3/4;
+    padding-left:110px;
+    padding-top:215px;
+    
+  }
+  
+  .mainGrid{
+    grid-area:2/2/3/3;
+  }
+  .grid1{
+    grid-area:2/2/3/3;
+  
+  }
+  .grid2{
+    grid-area:3/3/4/4
+  }
+  .miniGrid1{
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    grid-template-rows:repeat(6,1fr);
+    grid-gap:20px 10px;
+  }
+  .listCss{
+    font-size:14px;
+    font-family:'Montserrat',sans-serif;
+    text-align:justify;
+    padding:5px;
+    color:white;
+
+  }
+  .timelineBorder{
+    border-style:solid;
+    border-color:crimson;
+    border-width:2px;
+    background-color:goldenrod;
+    border-radius:15px;
+    width:600px;
+    padding-left:10px;
+  }
+  .sub-titleCss{
+    font-size:20px;
+    text-align:center;
+    justify-self: center;
+    color:white;
+    padding-left:55px;
+   
+  }
+  .titleCss{
+    font-size:32px;
+    text-align:center;
+    font-family:'Montserrat',sans-serif;
+    font-weight:200;
+    font-style: normal;
+    border-color:goldenrod;
+    border-width:1px;
+    color:goldenrod;
+    
+  }
+  .titleCss2{
+    font-size:16px;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    color:aliceblue;
+    font-style:normal;
+    font-weight: lighter;
+  }
+  .headGrid1{
+    grid-area:2/2/3/4;
+    padding-top:125px;
+    padding-left:150px;
+    
+  }
+  .headGrid2{
+    grid-area:2/2/3/4;
+    padding-top:180px;
+    padding-left:135px;
+  
+  }
+  .backgroundVidCss{
+    position:fixed;
+    height:100vh;
+    width:100vw;
+    z-index:-1;
+    
+    object-fit: cover;
+    top:0;
+    left:0;
+  }
+  .notify{
+    grid-area:1/4/2/5;
+    font-size:15px;
+    font-family:'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight:lighter;
+    opacity:0.7;
+    background-color:goldenrod;
+    height:50px;
+    width:215px;
+    color:white;
+  }
