@@ -2,9 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import './tributeSite.css'
 import './jTeams.css'
-import LoginForm from './components/LoginForm'
-import {ChatEngine} from 'react-chat-engine'
-import ChatFeed from './components/ChatFeed'
+
 
 import Characters from './components/characters';
 import About from './components/about';
